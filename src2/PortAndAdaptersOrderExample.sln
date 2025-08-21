@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Core", "PortsAndAdapters.Core\PortsAndAdapters.Core.csproj", "{928381F4-B24B-4E58-894C-6F4E1E3576ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Api", "PortsAndAdapters.Api\PortsAndAdapters.Api.csproj", "{6DFEE337-BFDA-4222-995B-9DC1A49515FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_solutionFiles", "_solutionFiles", "{1483E55E-E641-4A3A-BA6B-EB4D5DFDFB30}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_Interfaces", "0_Interfaces", "{A9C11C49-BD2D-4CF6-9A0E-34720AAE5356}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_Infrastructure", "2_Infrastructure", "{0318CB96-6CE1-4BC6-8FBD-EFCD06C9C8D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Core", "1_Core", "{B84517C2-88EE-49B7-A3D8-8A5C05E3B2C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Repository.Interfaces", "PortsAndAdapters.Repository.Interfaces\PortsAndAdapters.Repository.Interfaces.csproj", "{B05D6A48-FC21-4326-97FB-45914A732F90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Rest.Interfaces", "PortsAndAdapters.Rest.Interfaces\PortsAndAdapters.Rest.Interfaces.csproj", "{D04AF7F3-8F00-45A5-B7CB-A0032F4F329E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Repository.InMemory", "PortsAndAdapters.Repository.InMemory\PortsAndAdapters.Repository.InMemory.csproj", "{2DEACB68-E2A1-4CAC-9299-60012D90F162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Repository.Oracle", "PortsAndAdapters.Repository.Oracle\PortsAndAdapters.Repository.Oracle.csproj", "{BCB959AE-28EB-41BE-93A8-853033ACB84D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Repository.Sql", "PortsAndAdapters.Repository.Sql\PortsAndAdapters.Repository.Sql.csproj", "{BF1B61A1-60DF-40BB-AFC0-DCB3FDF65406}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inbound", "Inbound", "{D1DED015-08FD-4A49-A396-71614846226A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Outbound", "Outbound", "{1C9D95EE-6BA3-418D-BF4B-190D73E7287B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inbound", "Inbound", "{119CA5F7-48AF-42CC-910A-5E6CFD4EBEDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Outbound", "Outbound", "{85DE0154-8612-4A5A-A4CD-B541A3FB9A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Environment.Interfaces", "PortsAndAdapters.Environment.Interfaces\PortsAndAdapters.Environment.Interfaces.csproj", "{5BA8EA94-C03D-419B-95BC-D8FB6CE8474F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Core.Mappers", "PortsAndAdapters.Core.Mappers\PortsAndAdapters.Core.Mappers.csproj", "{8663E5B5-7726-4D9E-8A36-DB1052F7A228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Environment", "PortsAndAdapters.Environment\PortsAndAdapters.Environment.csproj", "{7A6E4D38-F7C5-4AA8-909D-FA78E3D8A4ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{928381F4-B24B-4E58-894C-6F4E1E3576ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928381F4-B24B-4E58-894C-6F4E1E3576ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928381F4-B24B-4E58-894C-6F4E1E3576ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928381F4-B24B-4E58-894C-6F4E1E3576ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFEE337-BFDA-4222-995B-9DC1A49515FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFEE337-BFDA-4222-995B-9DC1A49515FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFEE337-BFDA-4222-995B-9DC1A49515FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFEE337-BFDA-4222-995B-9DC1A49515FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05D6A48-FC21-4326-97FB-45914A732F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05D6A48-FC21-4326-97FB-45914A732F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05D6A48-FC21-4326-97FB-45914A732F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05D6A48-FC21-4326-97FB-45914A732F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04AF7F3-8F00-45A5-B7CB-A0032F4F329E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04AF7F3-8F00-45A5-B7CB-A0032F4F329E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04AF7F3-8F00-45A5-B7CB-A0032F4F329E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04AF7F3-8F00-45A5-B7CB-A0032F4F329E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DEACB68-E2A1-4CAC-9299-60012D90F162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEACB68-E2A1-4CAC-9299-60012D90F162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEACB68-E2A1-4CAC-9299-60012D90F162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEACB68-E2A1-4CAC-9299-60012D90F162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB959AE-28EB-41BE-93A8-853033ACB84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB959AE-28EB-41BE-93A8-853033ACB84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB959AE-28EB-41BE-93A8-853033ACB84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB959AE-28EB-41BE-93A8-853033ACB84D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1B61A1-60DF-40BB-AFC0-DCB3FDF65406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1B61A1-60DF-40BB-AFC0-DCB3FDF65406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1B61A1-60DF-40BB-AFC0-DCB3FDF65406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1B61A1-60DF-40BB-AFC0-DCB3FDF65406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA8EA94-C03D-419B-95BC-D8FB6CE8474F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA8EA94-C03D-419B-95BC-D8FB6CE8474F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA8EA94-C03D-419B-95BC-D8FB6CE8474F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA8EA94-C03D-419B-95BC-D8FB6CE8474F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8663E5B5-7726-4D9E-8A36-DB1052F7A228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8663E5B5-7726-4D9E-8A36-DB1052F7A228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8663E5B5-7726-4D9E-8A36-DB1052F7A228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8663E5B5-7726-4D9E-8A36-DB1052F7A228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6E4D38-F7C5-4AA8-909D-FA78E3D8A4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6E4D38-F7C5-4AA8-909D-FA78E3D8A4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6E4D38-F7C5-4AA8-909D-FA78E3D8A4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6E4D38-F7C5-4AA8-909D-FA78E3D8A4ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{928381F4-B24B-4E58-894C-6F4E1E3576ED} = {B84517C2-88EE-49B7-A3D8-8A5C05E3B2C0}
+		{6DFEE337-BFDA-4222-995B-9DC1A49515FD} = {119CA5F7-48AF-42CC-910A-5E6CFD4EBEDC}
+		{B05D6A48-FC21-4326-97FB-45914A732F90} = {1C9D95EE-6BA3-418D-BF4B-190D73E7287B}
+		{D04AF7F3-8F00-45A5-B7CB-A0032F4F329E} = {D1DED015-08FD-4A49-A396-71614846226A}
+		{2DEACB68-E2A1-4CAC-9299-60012D90F162} = {85DE0154-8612-4A5A-A4CD-B541A3FB9A9F}
+		{BCB959AE-28EB-41BE-93A8-853033ACB84D} = {85DE0154-8612-4A5A-A4CD-B541A3FB9A9F}
+		{BF1B61A1-60DF-40BB-AFC0-DCB3FDF65406} = {85DE0154-8612-4A5A-A4CD-B541A3FB9A9F}
+		{D1DED015-08FD-4A49-A396-71614846226A} = {A9C11C49-BD2D-4CF6-9A0E-34720AAE5356}
+		{1C9D95EE-6BA3-418D-BF4B-190D73E7287B} = {A9C11C49-BD2D-4CF6-9A0E-34720AAE5356}
+		{119CA5F7-48AF-42CC-910A-5E6CFD4EBEDC} = {0318CB96-6CE1-4BC6-8FBD-EFCD06C9C8D2}
+		{85DE0154-8612-4A5A-A4CD-B541A3FB9A9F} = {0318CB96-6CE1-4BC6-8FBD-EFCD06C9C8D2}
+		{5BA8EA94-C03D-419B-95BC-D8FB6CE8474F} = {1C9D95EE-6BA3-418D-BF4B-190D73E7287B}
+		{8663E5B5-7726-4D9E-8A36-DB1052F7A228} = {B84517C2-88EE-49B7-A3D8-8A5C05E3B2C0}
+		{7A6E4D38-F7C5-4AA8-909D-FA78E3D8A4ED} = {85DE0154-8612-4A5A-A4CD-B541A3FB9A9F}
+	EndGlobalSection
+EndGlobal

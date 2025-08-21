@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PortsAndAdapters.Core.Mappers\PortsAndAdapters.Core.Mappers.csproj" />
+    <ProjectReference Include="..\PortsAndAdapters.Environment.Interfaces\PortsAndAdapters.Environment.Interfaces.csproj" />
+    <ProjectReference Include="..\PortsAndAdapters.Repository.Interfaces\PortsAndAdapters.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\PortsAndAdapters.Rest.Interfaces\PortsAndAdapters.Rest.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
