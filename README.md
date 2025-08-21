@@ -126,6 +126,8 @@ Here is a quick overview of the project structure:
 
 <img src="doc/ports-and-adapters-solutions-view-733x1024.png" alt="solutions view" width="500"/>
 
+<img src="doc/ports-and-adapters-architecture.jpg" alt="architecture" width="400"/>
+
 The solution contains 3 projects:
 
 - **Application** – core application logic
