@@ -1,8 +1,8 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using PortsAndAdapters.Rest.Interfaces;
+using System.Diagnostics.CodeAnalysis;
 
-namespace PortsAndAdapters.Api.Controllers;
+namespace PortsAndAdapters.Controllers;
 
 /// <summary>
 /// API. Order controller.

@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PortsAndAdapters.Controllers\PortsAndAdapters.Controllers.csproj" />
     <ProjectReference Include="..\PortsAndAdapters.Core\PortsAndAdapters.Core.csproj" />
     <ProjectReference Include="..\PortsAndAdapters.Environment.Interfaces\PortsAndAdapters.Environment.Interfaces.csproj" />
     <ProjectReference Include="..\PortsAndAdapters.Environment\PortsAndAdapters.Environment.csproj" />
