@@ -173,7 +173,7 @@ Despite (or because of) it’s age, the Ports and Adapter/Hexogonal architecture
 
 Упрощенный вид зависимостей проектов:
 
-<img src="doc/ports-and-adapters-architecture-2.jpg" alt="architecture 2" width="700"/>
+<img src="doc/ports-and-adapters-architecture-2.jpg" alt="architecture 2"/>
 
 Структура всего solution:
 
