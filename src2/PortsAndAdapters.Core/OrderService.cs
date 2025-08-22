@@ -1,5 +1,5 @@
-﻿using PortsAndAdapters.Core.Mappers;
-using PortsAndAdapters.Environment.Interfaces;
+﻿using PortsAndAdapters.Environment.Interfaces;
+using PortsAndAdapters.Mappers.Interfaces;
 using PortsAndAdapters.Repository.Interfaces;
 using PortsAndAdapters.Rest.Interfaces;
 using Order = PortsAndAdapters.Rest.Interfaces.Order;
@@ -13,32 +13,30 @@ public class OrderService : IOrderService
 {
     private readonly IDateTime _dateTime;
     private readonly IOrderRepository _orderRepository;
-    private OrderMapper? _orderMapper;
+    private readonly IMappers _mappers;
 
     /// <summary>
     /// Ctor.
     /// </summary>
     /// <param name="dateTime">Date and time provider.</param>
     /// <param name="orderRepository">Order repository.</param>
+    /// <param name="mappers">Dto mappers.</param>
     public OrderService(
         IDateTime dateTime,
-        IOrderRepository orderRepository)
+        IOrderRepository orderRepository,
+        IMappers mappers)
     {
         _dateTime = dateTime;
         _orderRepository = orderRepository;
+        _mappers = mappers;
     }
-
-    private OrderMapper OrderMapper =>
-        LazyInitializer.EnsureInitialized(
-            ref _orderMapper,
-            () => new OrderMapper());
 
     /// <inheritdoc />
     public Task PlaceOrderAsync(NewOrder order)
     {
         ArgumentNullException.ThrowIfNull(order);
         var now = _dateTime.UtcNow;
-        var orderRepo = OrderMapper.ToRepo(order, now);
+        var orderRepo = _mappers.OrderMapper.MapToOrderRepo(order, now);
         return _orderRepository.AddOrderAsync(orderRepo);
     }
 
@@ -52,7 +50,7 @@ public class OrderService : IOrderService
         if (orderRepo == null)
             return null;
 
-        var orderRest = OrderMapper.ToRest(orderRepo);
+        var orderRest = _mappers.OrderMapper.MapToOrderRest(orderRepo);
         return orderRest;
     }
 }

@@ -5,7 +5,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PortsAndAdapters.Environment.Interfaces\PortsAndAdapters.Environment.Interfaces.csproj" />
-    <ProjectReference Include="..\PortsAndAdapters.Mappers.Interfaces\PortsAndAdapters.Mappers.Interfaces.csproj" />
     <ProjectReference Include="..\PortsAndAdapters.Repository.Interfaces\PortsAndAdapters.Repository.Interfaces.csproj" />
     <ProjectReference Include="..\PortsAndAdapters.Rest.Interfaces\PortsAndAdapters.Rest.Interfaces.csproj" />
   </ItemGroup>

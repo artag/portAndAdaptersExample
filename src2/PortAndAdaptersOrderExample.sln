@@ -39,11 +39,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Outbound", "Outbound", "{85
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Environment.Interfaces", "PortsAndAdapters.Environment.Interfaces\PortsAndAdapters.Environment.Interfaces.csproj", "{5BA8EA94-C03D-419B-95BC-D8FB6CE8474F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Core.Mappers", "PortsAndAdapters.Core.Mappers\PortsAndAdapters.Core.Mappers.csproj", "{8663E5B5-7726-4D9E-8A36-DB1052F7A228}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Mappers.Mapperly", "PortsAndAdapters.Mappers.Mapperly\PortsAndAdapters.Mappers.Mapperly.csproj", "{8663E5B5-7726-4D9E-8A36-DB1052F7A228}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Environment", "PortsAndAdapters.Environment\PortsAndAdapters.Environment.csproj", "{7A6E4D38-F7C5-4AA8-909D-FA78E3D8A4ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Controllers", "PortsAndAdapters.Controllers\PortsAndAdapters.Controllers.csproj", "{9A96B86C-A3D4-4DD5-A139-53AA3D12BBCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortsAndAdapters.Mappers.Interfaces", "PortsAndAdapters.Mappers.Interfaces\PortsAndAdapters.Mappers.Interfaces.csproj", "{7F10B215-0963-4113-BBB0-1F224FEA7A39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{DE6571AD-55FF-4DFA-A284-A37416735E4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +99,10 @@ Global
 		{9A96B86C-A3D4-4DD5-A139-53AA3D12BBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A96B86C-A3D4-4DD5-A139-53AA3D12BBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A96B86C-A3D4-4DD5-A139-53AA3D12BBCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F10B215-0963-4113-BBB0-1F224FEA7A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F10B215-0963-4113-BBB0-1F224FEA7A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F10B215-0963-4113-BBB0-1F224FEA7A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F10B215-0963-4113-BBB0-1F224FEA7A39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,8 +119,10 @@ Global
 		{119CA5F7-48AF-42CC-910A-5E6CFD4EBEDC} = {0318CB96-6CE1-4BC6-8FBD-EFCD06C9C8D2}
 		{85DE0154-8612-4A5A-A4CD-B541A3FB9A9F} = {0318CB96-6CE1-4BC6-8FBD-EFCD06C9C8D2}
 		{5BA8EA94-C03D-419B-95BC-D8FB6CE8474F} = {1C9D95EE-6BA3-418D-BF4B-190D73E7287B}
-		{8663E5B5-7726-4D9E-8A36-DB1052F7A228} = {B84517C2-88EE-49B7-A3D8-8A5C05E3B2C0}
+		{8663E5B5-7726-4D9E-8A36-DB1052F7A228} = {85DE0154-8612-4A5A-A4CD-B541A3FB9A9F}
 		{7A6E4D38-F7C5-4AA8-909D-FA78E3D8A4ED} = {85DE0154-8612-4A5A-A4CD-B541A3FB9A9F}
 		{9A96B86C-A3D4-4DD5-A139-53AA3D12BBCF} = {119CA5F7-48AF-42CC-910A-5E6CFD4EBEDC}
+		{7F10B215-0963-4113-BBB0-1F224FEA7A39} = {DE6571AD-55FF-4DFA-A284-A37416735E4C}
+		{DE6571AD-55FF-4DFA-A284-A37416735E4C} = {A9C11C49-BD2D-4CF6-9A0E-34720AAE5356}
 	EndGlobalSection
 EndGlobal

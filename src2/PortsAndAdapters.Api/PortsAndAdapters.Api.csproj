@@ -14,6 +14,7 @@
     <ProjectReference Include="..\PortsAndAdapters.Core\PortsAndAdapters.Core.csproj" />
     <ProjectReference Include="..\PortsAndAdapters.Environment.Interfaces\PortsAndAdapters.Environment.Interfaces.csproj" />
     <ProjectReference Include="..\PortsAndAdapters.Environment\PortsAndAdapters.Environment.csproj" />
+    <ProjectReference Include="..\PortsAndAdapters.Mappers.Mapperly\PortsAndAdapters.Mappers.Mapperly.csproj" />
     <ProjectReference Include="..\PortsAndAdapters.Repository.InMemory\PortsAndAdapters.Repository.InMemory.csproj" />
     <ProjectReference Include="..\PortsAndAdapters.Repository.Interfaces\PortsAndAdapters.Repository.Interfaces.csproj" />
     <ProjectReference Include="..\PortsAndAdapters.Rest.Interfaces\PortsAndAdapters.Rest.Interfaces.csproj" />
