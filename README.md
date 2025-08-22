@@ -164,3 +164,17 @@ Despite (or because of) it’s age, the Ports and Adapter/Hexogonal architecture
 - [Original article of Alistair Cockburn](https://alistair.cockburn.us/hexagonal-architecture/)
 
 - [In dept information from Juan Manuel Garrido de Paz](https://jmgarridopaz.github.io/content/hexagonalarchitecture.html)
+
+# Более навороченная структура
+
+Разнес код из предыдущего примера по разным проектам.
+
+Новая версия расположена в [src2](/src2)
+
+Упрощенный вид зависимостей проектов:
+
+<img src="doc/ports-and-adapters-architecture-2.jpg" alt="architecture 2" width="700"/>
+
+Структура всего solution:
+
+<img src="doc/ports-and-adapters-solution-2.jpg" alt="solution 2"/>
